@@ -1,0 +1,2 @@
+model_checkpoint_path: "E:\\python_code\\Deep_Learning\\save\\model.ckpt"
+all_model_checkpoint_paths: "E:\\python_code\\Deep_Learning\\save\\model.ckpt"
