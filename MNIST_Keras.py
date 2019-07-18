@@ -28,7 +28,7 @@ def read_img(data_path):
 
 
 def main():
-    img_list, label_list = read_img('data\\number\\Testimage')
+    img_list, label_list = read_img('..\\Deep_Learning_data\\number\\Testimage')
     data = list(zip(img_list, label_list))
     random.shuffle(data)
     x_train = []
@@ -64,7 +64,7 @@ def main():
     model.fit(x=x_train_normlize, y=y_train_onehot, validation_split=0.2, epochs=10, batch_size=64,
               verbose=2)
 
-    img_list, label_list = read_img('data\\number\\Trainimage')
+    img_list, label_list = read_img('..\\Deep_Learning_data\\number\\Trainimage')
     data = list(zip(img_list, label_list))
     random.shuffle(data)
     x_test = []

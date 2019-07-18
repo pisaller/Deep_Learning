@@ -28,7 +28,7 @@ def read_img(data_path):
 
 
 def main():
-    img_list, label_list = read_img('data\\object\\test')
+    img_list, label_list = read_img('..\\Deep_Learning_data\\object\\test')
     data = list(zip(img_list, label_list))
     random.shuffle(data)
     x_train = []
