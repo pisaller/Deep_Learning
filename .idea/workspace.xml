@@ -4,6 +4,7 @@
     <list default="true" id="f1447253-e5dd-4b0a-accf-ee2fc0472867" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CIFAR10_Keras.py" beforeDir="false" afterPath="$PROJECT_DIR$/CIFAR10_Keras.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MINST.py" beforeDir="false" afterPath="$PROJECT_DIR$/MINST_TensorFlow.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,27 +14,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MNIST_Keras.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-561">
-              <caret line="51" column="67" selection-start-line="51" selection-start-column="67" selection-end-line="51" selection-end-column="67" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <element signature="e#243#640#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CIFAR10_Keras.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
-              <caret line="91" column="10" lean-forward="true" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
+            <state relative-caret-position="192">
+              <caret line="101" selection-start-line="101" selection-end-line="101" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <element signature="e#1964#2025#0" />
               </folding>
             </state>
           </provider>
@@ -77,7 +64,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -89,7 +76,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,28 +83,11 @@
               <item name="Deep_Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Deep_Learning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Deep_Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deep_Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deep_Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deep_Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="object" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deep_Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deep_Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="object" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,7 +159,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MINST.py" />
+      <option name="SCRIPT_NAME" value="E:\python_code\Deep_Learning\MINST_TensorFlow.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -334,7 +303,9 @@
       <workItem from="1562077952058" duration="3739000" />
       <workItem from="1562511222444" duration="3720000" />
       <workItem from="1563373473502" duration="1110000" />
-      <workItem from="1563460014142" duration="3780000" />
+      <workItem from="1563460014142" duration="4276000" />
+      <workItem from="1563632693365" duration="10760000" />
+      <workItem from="1563676553711" duration="1267000" />
     </task>
     <task id="LOCAL-00001" summary="now can work">
       <created>1559200772907</created>
@@ -371,23 +342,30 @@
       <option name="project" value="LOCAL" />
       <updated>1563462892290</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added cifar-10">
+      <created>1563464292433</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563464292433</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45786000" />
+    <option name="totallyTimeSpent" value="58309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3665208" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.96746206" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4121475" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.318872" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4164859" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -401,7 +379,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.8054371" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.6892324" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Coding Counter" order="5" />
       <window_info anchor="right" id="R Graphics" order="6" />
@@ -419,57 +397,57 @@
     <option name="LAST_COMMIT_MESSAGE" value="added cifar-10" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Deep_Learning$CIFAR10_Keras.coverage" NAME="CIFAR10_Keras Coverage Results" MODIFIED="1563463241154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Deep_Learning$CIFAR10_Keras.coverage" NAME="CIFAR10_Keras Coverage Results" MODIFIED="1563677796841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Deep_Learning$MINST_zyz.coverage" NAME="MINST_zyz Coverage Results" MODIFIED="1562078426640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Deep_Learning$MINST.coverage" NAME="MINST Coverage Results" MODIFIED="1562062317189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Deep_Learning$utils.coverage" NAME="utils Coverage Results" MODIFIED="1559182358115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Deep_Learning$test.coverage" NAME="test Coverage Results" MODIFIED="1562515078874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Deep_Learning$MNIST_Keras.coverage" NAME="MNIST_Keras Coverage Results" MODIFIED="1563461866930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Deep_Learning$MNIST_Keras.coverage" NAME="MNIST_Keras Coverage Results" MODIFIED="1563464213150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>im.shape</expression-string>
+        <expression-string>images[idx]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>list(prediction)</expression-string>
+        <expression-string>label_dict[labels[i]]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>prediction</expression-string>
+        <expression-string>labels[i]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>prediction.shape</expression-string>
+        <expression-string>labels[i][0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>len(prediction)</expression-string>
+        <expression-string>label_dict[labels[i][0]]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>len(y_test)</expression-string>
+        <expression-string>round(predicted_probaility[i][j], 2)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>y_test</expression-string>
+        <expression-string>predicted_probaility[i][j]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>y_test.shape()</expression-string>
+        <expression-string>label_dict[j]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>y_test.shape</expression-string>
+        <expression-string>label_dict[prediction[i]]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -479,22 +457,14 @@
     <entry file="file://$PROJECT_DIR$/ReadMe.txt" />
     <entry file="file://D:/Anaconda3/Lib/site-packages/cv2/__init__.py" />
     <entry file="file://$PROJECT_DIR$/utils.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/../变动成本脚本/cost_fetch.py" />
     <entry file="file://$PROJECT_DIR$/../变动成本脚本/cost_process.py" />
     <entry file="file://D:/Anaconda3/Lib/site-packages/tensorflow/python/ops/array_ops.py" />
     <entry file="file://D:/Anaconda3/Lib/site-packages/tensorflow/python/ops/variable_scope.py" />
     <entry file="file://D:/Anaconda3/Lib/site-packages/tensorflow/python/layers/core.py" />
     <entry file="file://D:/Anaconda3/Lib/site-packages/tensorflow/python/ops/gen_nn_ops.py" />
-    <entry file="file://$PROJECT_DIR$/data/number/Testimage/9/1.bmp">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/number/Testimage/9/1.bmp" />
     <entry file="file://$PROJECT_DIR$/MINST_zyz.py" />
     <entry file="file://E:/Python35/Lib/site-packages/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -512,7 +482,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MINST.py">
+    <entry file="file://$PROJECT_DIR$/MINST_TensorFlow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="151" selection-start-line="151" selection-end-line="151" />
@@ -531,27 +501,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/object/test/0/0_10.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/object/test/0/0_10.jpg" />
     <entry file="file://$PROJECT_DIR$/MNIST_Keras.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="51" column="67" selection-start-line="51" selection-start-column="67" selection-end-line="51" selection-end-column="67" />
+        <state relative-caret-position="1896">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#243#640#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Python35/Lib/site-packages/keras/engine/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="1040" column="38" lean-forward="true" selection-start-line="1040" selection-start-column="38" selection-end-line="1040" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Python35/Lib/site-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="706" selection-start-line="706" selection-end-line="706" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CIFAR10_Keras.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="91" column="10" lean-forward="true" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
+        <state relative-caret-position="192">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#1964#2025#0" />
           </folding>
         </state>
       </provider>
