@@ -65,7 +65,7 @@ def read_img(data_path):
     return imgs_list, labels_list
 
 
-def build_model():
+def build_lnet5():
     model = Sequential()
     model.add(Conv2D(filters=32, kernel_size=(3, 3), padding='same', input_shape=(32, 32, 3), activation='relu'))
     model.add(Dropout(0.25))
@@ -112,10 +112,10 @@ def main():
     x_train_normlize = x_train / 255.0
     y_train_onehot = np_utils.to_categorical(y_train)
 
-    cnn_model = build_model()
+    model = build_lnet5()
 
-    train_history = cnn_model.fit(x=x_train_normlize, y=y_train_onehot, validation_split=0.2, epochs=20, batch_size=128,
-                                  verbose=2)
+    train_history = model.fit(x=x_train_normlize, y=y_train_onehot, validation_split=0.2, epochs=20, batch_size=128,
+                              verbose=2)
 
     show_train_history(train_history, 'acc', 'val_acc')
 
@@ -138,11 +138,13 @@ def main():
 
     x_test_normlize = x_test / 255.0
 
-    score = cnn_model.evaluate(x_test_normlize, y_test_onehot, verbose=0)
+    score = model.evaluate(x_test_normlize, y_test_onehot, verbose=0)
 
     print('Model Score: {}'.format(score))
 
-    prediction = cnn_model.predict_classes(x_test_normlize)
+    prediction = model.predict_classes(x_test_normlize)
+
+    plot_images_labels_prediction(x_test, y_test, prediction, 0)
 
     pred_list = []
 
@@ -158,7 +160,7 @@ def main():
 
     print(pd.crosstab(y_test, prediction, rownames=['label'], colnames=['predict']))
 
-    predicted_probability = cnn_model.predict(x_test_normlize)
+    predicted_probability = model.predict(x_test_normlize)
 
     show_predicted_probability(y_test, prediction, x_test_normlize, predicted_probability, 0)
 

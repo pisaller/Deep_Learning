@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1447253-e5dd-4b0a-accf-ee2fc0472867" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CIFAR10_Keras.py" beforeDir="false" afterPath="$PROJECT_DIR$/CIFAR10_Keras.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MINST.py" beforeDir="false" afterPath="$PROJECT_DIR$/MINST_TensorFlow.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CIFAR10_Keras.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="101" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="443">
+              <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -305,7 +303,7 @@
       <workItem from="1563373473502" duration="1110000" />
       <workItem from="1563460014142" duration="4276000" />
       <workItem from="1563632693365" duration="10760000" />
-      <workItem from="1563676553711" duration="1267000" />
+      <workItem from="1563676553711" duration="2674000" />
     </task>
     <task id="LOCAL-00001" summary="now can work">
       <created>1559200772907</created>
@@ -349,11 +347,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563464292433</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added print result">
+      <created>1563677910251</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563677910251</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58309000" />
+    <option name="totallyTimeSpent" value="59716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -364,7 +369,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.318872" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.318872" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4164859" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -379,7 +384,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.6892324" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.6892324" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Coding Counter" order="5" />
       <window_info anchor="right" id="R Graphics" order="6" />
@@ -394,10 +399,11 @@
     <MESSAGE value="added few comments" />
     <MESSAGE value="dsa" />
     <MESSAGE value="added cifar-10" />
-    <option name="LAST_COMMIT_MESSAGE" value="added cifar-10" />
+    <MESSAGE value="added print result" />
+    <option name="LAST_COMMIT_MESSAGE" value="added print result" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Deep_Learning$CIFAR10_Keras.coverage" NAME="CIFAR10_Keras Coverage Results" MODIFIED="1563677796841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Deep_Learning$CIFAR10_Keras.coverage" NAME="CIFAR10_Keras Coverage Results" MODIFIED="1563678399805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Deep_Learning$MINST_zyz.coverage" NAME="MINST_zyz Coverage Results" MODIFIED="1562078426640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Deep_Learning$MINST.coverage" NAME="MINST Coverage Results" MODIFIED="1562062317189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Deep_Learning$utils.coverage" NAME="utils Coverage Results" MODIFIED="1559182358115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -528,8 +534,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CIFAR10_Keras.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="443">
+          <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
